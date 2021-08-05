@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="manifest" href="/manifest.json">
+
+	<meta name="theme-color" content="white"/>
+
+    <link rel="icon" href="Iconsmind-Outline-Calculator-2.ico" type="images/x-icon"/>
+
+	<link rel="apple-touch-icon" href="images/icons8-calculator-150.png">
+	
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="Calculator">
+	<title>Dherya's Calculator</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+</head>
+<body class="fullscreen">
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.6.8/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.6.8/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<div class="alert alert-success" role="alert">Use keypad on laptops for better accessbility!</div>
+			</div>
+		</div>
+		<div class="row ">
+			<div class="col-md-12 text-center mt-5">
+				<h1 id="display1" class="text-primary"></h1>
+				<h4 id="display2" class="text-secondary"></h4>
+			</div>
+		</div>
+		<div class="row mt-2">
+			<div class="col-md-12 btn-group">
+				<button onclick="btnClick(this.innerHTML)" class="btn btn-dark btn-lg" style="width:85px;">AC</button>
+			
+				<button onclick="btnClick(this.innerHTML)" class="btn btn-dark btn-lg"><-</button>
+				
+				<button onclick="btnClick(this.innerHTML)" class="btn btn-dark btn-lg">/</button>
+			</div>
+		</div>
+		<div class="row mt-2">
+			<div class="col-md-12 btn-group">
+				<button onclick="btnClick(this.innerHTML)" class="btn btn-dark btn-lg">7</button>
+			
+				<button onclick="btnClick(this.innerHTML)" class="btn btn-dark btn-lg">8</button>
+			
+				<button onclick="btnClick(this.innerHTML)" class="btn btn-dark btn-lg">9</button>
+			
+				<button onclick="btnClick(this.innerHTML)" class="btn btn-dark btn-lg">*</button>
+			</div>
+		</div>
+		<div class="row mt-2">
+			<div class="col-md-12 btn-group">
+				<button onclick="btnClick(this.innerHTML)" class="btn btn-dark btn-lg">4</button>
+				<button onclick="btnClick(this.innerHTML)" class="btn btn-dark btn-lg">5</button>
+				<button onclick="btnClick(this.innerHTML)" class="btn btn-dark btn-lg">6</button>
+				<button onclick="btnClick(this.innerHTML)" class="btn btn-dark btn-lg">-</button>
+			</div>
+		</div>
+		<div class="row mt-2">
+			<div class="col-md-12 text-center btn-group">
+				<button onclick="btnClick(this.innerHTML)" class="btn btn-dark btn-lg">1</button>
+				<button onclick="btnClick(this.innerHTML)" class="btn btn-dark btn-lg">2</button>
+				<button onclick="btnClick(this.innerHTML)" class="btn btn-dark btn-lg">3</button>
+				<button onclick="btnClick(this.innerHTML)" class="btn btn-dark btn-lg">+</button>
+			</div>
+		</div>
+		<div class="row mt-2">				
+			<div class="col-md-12 text-center btn-group">
+				<button onclick="btnClick(this.innerHTML)" class="btn btn-dark btn-lg" style="width:500px">0</button>
+				<button onclick="btnClick(this.innerHTML)"  class="btn btn-warning btn-lg">=</button>
+			</div>
+		</div>
+	</div>	
+
+	<script src="js/main.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

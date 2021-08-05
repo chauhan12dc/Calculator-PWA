@@ -50,11 +50,14 @@ function btnClick(clicked_id){
 	}
 	else if(clicked_id == "-" || clicked_id == "+" || clicked_id == "*" || clicked_id == "/")
 	{
-		if (firstNumber==null) {alert("Invalid Selection"); return;}
+			
 		firstNumber = document.getElementById("display2").innerHTML;
-		document.getElementById("display1").innerHTML = firstNumber + " "+ clicked_id;
-		document.getElementById("display2").innerHTML = null;
-		operation = clicked_id;
+		if (firstNumber=="") {alert("Invalid selection")}
+		else{
+			document.getElementById("display1").innerHTML = firstNumber + " "+ clicked_id;
+			document.getElementById("display2").innerHTML = null;
+			operation = clicked_id;
+		}
 	}
 	else if(clicked_id == "=" || clicked_id == "Enter")
 	{

@@ -3,33 +3,33 @@
 	"short_name" : "Calculator",
 
 	"icons" : [{
-		"src" : "images/hello-icon-128.png",
-		"sizes":"128x128",
+		"src" : "images/icons8-calculator-100.png",
+		"sizes":"100x100",
 		"type":"image/png"
 	},
 	{
-		"src" : "images/hello-icon-144.png",
-		"sizes":"144x144",
+		"src" : "images/icons8-calculator-150.png",
+		"sizes":"150x150",
 		"type":"image/png"
 	},
 	{
-		"src" : "images/hello-icon-152.png",
-		"sizes":"152x152",
+		"src" : "images/icons8-calculator-150.png",
+		"sizes":"150x150",
 		"type":"image/png"
 	},
 	{
-		"src" : "images/hello-icon-192.png",
-		"sizes":"192x192",
+		"src" : "images/icons8-calculator-150.png",
+		"sizes":"150x150",
 		"type":"image/png",
 		"purpose":"any maskable"
 	},
 	{
-		"src" : "images/hello-icon-256.png",
-		"sizes":"256x256",
+		"src" : "images/icons8-calculator-250.png",
+		"sizes":"250x250",
 		"type":"image/png"
 	},
 	{
-		"src" : "images/hello-icon-512.png",
+		"src" : "images/icons8-calculator-512.png",
 		"sizes":"512x512",
 		"type":"image/png"
 	}
